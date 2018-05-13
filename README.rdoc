@@ -5,7 +5,9 @@ A simple demonstration of a micro-reddits backend.
 There are 3 models:
 
 *Posts, which can have many comments and one User
+
 *Users, which can have many posts and many comments
+
 *Comments, which can have one user and one post
 
 This project is part of the Rails Curriculum on The Odin Project (theodinproject.com).
