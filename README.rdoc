@@ -1,28 +1,11 @@
-== README
+Micro-reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple demonstration of a micro-reddits backend.
 
-Things you may want to cover:
+There are 3 models:
 
-* Ruby version
+Posts, which can have many comments and one User
+Users, which can have many posts and many comments
+Comments, which can have one user and one post
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This project is part of the Rails Curriculum on The Odin Project (theodinproject.com).
